@@ -1,0 +1,56 @@
+{
+  "name": "合成矩形测试地块（非真实案例）",
+  "boundary": [
+    [
+      0,
+      0
+    ],
+    [
+      200,
+      0
+    ],
+    [
+      200,
+      160
+    ],
+    [
+      0,
+      160
+    ]
+  ],
+  "site_area_m2": 32000,
+  "far_limit": 2,
+  "height_limit_m": 60,
+  "setback_m": 10,
+  "screening_spacing_m": 12,
+  "max_buildings": 40,
+  "products": [
+    {
+      "name": "板楼18层",
+      "type": "slab",
+      "width_m": 54,
+      "depth_m": 15,
+      "floors": 18,
+      "floor_height_m": 3,
+      "value_factor": 1
+    },
+    {
+      "name": "板楼11层",
+      "type": "slab",
+      "width_m": 48,
+      "depth_m": 14,
+      "floors": 11,
+      "floor_height_m": 3,
+      "value_factor": 1.08
+    },
+    {
+      "name": "点楼20层",
+      "type": "tower",
+      "width_m": 27,
+      "depth_m": 25,
+      "floors": 20,
+      "floor_height_m": 3,
+      "value_factor": 1.12
+    }
+  ]
+}
